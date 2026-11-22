@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>π FI - JKBOSE Study Hub</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #0a0a0a;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    /* Header & Logo Section */
+    header {
+      background: linear-gradient(180deg, #161616 0%, #0a0a0a 100%);
+      text-align: center;
+      padding: 50px 20px 40px;
+      border-bottom: 1px solid #d4af3744;
+    }
+
+    .logo-circle {
+      width: 90px;
+      height: 90px;
+      margin: 0 auto 15px;
+      border: 2px solid #d4af37;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+      background-color: #111;
+    }
+
+    .pi-symbol {
+      font-size: 48px;
+      color: #d4af37;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 38px;
+      letter-spacing: 4px;
+      color: #f5d061;
+      margin-bottom: 8px;
+    }
+
+    .tagline {
+      font-size: 15px;
+      color: #cccccc;
+      max-width: 500px;
+      margin: 0 auto 15px;
+    }
+
+    .creators-badge {
+      display: inline-block;
+      background-color: #1a170e;
+      border: 1px solid #d4af3788;
+      color: #f5d061;
+      padding: 8px 18px;
+      border-radius: 25px;
+      font-size: 13px;
+      margin-top: 10px;
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 24px;
+      color: #d4af37;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    /* Class Cards Grid */
+    .class-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #141414;
+      border: 1px solid #d4af3755;
+      border-radius: 12px;
+      padding: 25px 20px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(212, 175, 55, 0.25);
+      border-color: #f5d061;
+    }
+
+    .card h2 {
+      font-size: 24px;
+      color: #f5d061;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #aaaaaa;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      background: linear-gradient(45deg, #b8860b, #f5d061);
+      color: #000000;
+      font-weight: bold;
+      padding: 10px 22px;
+      border-radius: 6px;
+      font-size: 14px;
+      transition: opacity 0.3s;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 60px;
+      border-top: 1px solid #d4af3733;
+      color: #888888;
+      font-size: 13px;
+    }
+
+    footer span {
+      color: #d4af37;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="logo-circle">
+      <span class="pi-symbol">π</span>
+    </div>
+    <h1>FI</h1>
+    <p class="tagline">Your ultimate destination for JKBOSE Class 9th to 12th Notes, Syllabus, Notebooks, and Previous Year Papers.</p>
+
+    <div class="creators-badge">
+      Created by <strong>Fazal Hussain Manhas</strong> & <strong>Faika Hashamzadeh</strong> for Students
+    </div>
+  </header>
+
+  <!-- Classes Section -->
+  <div class="container">
+    <h2 class="section-title">Select Your Class (JKBOSE)</h2>
+
+    
+    <div class="class-grid">
+      <!-- Class 9th -->
+      <div class="card">
+        <h2>Class 9th</h2>
+        <p>Notes, Textbooks, Syllabus & Important Questions</p>
+        <a href="class9.html" class="btn">Open Material</a>
+      </div>
+
+      <!-- Class 10th -->
+      <div class="card">
+        <h2>Class 10th</h2>
+        <p>Board Notes, Past Papers, Syllabus & Solutions</p>
+        <a href="class10.html" class="btn">Open Material</a>
+      </div>
+
+      <!-- Class 11th -->
+      <div class="card">
+        <h2>Class 11th</h2>
+        <p>Science, Arts & Commerce Notes, Papers & Syllabus</p>
+        <a href="class11.html" class="btn">Open Material</a>
+      </div>
+
+      <!-- Class 12th -->
+      <div class="card">
+        <h2>Class 12th</h2>
+        <p>Complete Board Study Material, PYQs & Notebooks</p>
+        <a href="class12.html" class="btn">Open Material</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 <span>π FI Educational Hub</span> | Designed & Built by <span>Fazal Hussain Manhas</span> & <span>Faika Hashamzadeh</span></p>
+  </footer>
+
+</body>
+</html>
